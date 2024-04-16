@@ -1,0 +1,79 @@
+.news-content-container{
+    background: #1b0d01;
+}
+.news-cards-container {
+     max-width: 70vw;
+     margin: auto;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     padding: 5% 0;
+ }
+.news-cards-container .card {
+    margin: 1%;
+    cursor: pointer;
+}
+i.fa.fa-share-alt {
+    color: black;
+}
+.news-content-container .card-body button.btn.btn-primary {
+    background: transparent !important;
+    border: none !important;;
+}
+.news-content-container .card-body button.btn.btn-primary:hover,
+.news-content-container .card-body button.btn.btn-primary:active,
+.news-content-container .card-body button.btn.btn-primary:focus,
+.news-content-container .card-body button.btn.btn-primary:focus-visible,
+.news-content-container .card-body button.btn.btn-primary:focus-within{
+    background: transparent !important;
+    border: none !important;;
+    box-shadow: none !important;
+
+}
+
+.card-body {
+    justify-content: space-between;
+    display: flex;
+}
+
+
+
+@media screen and (max-width: 1000px) {
+    .news-cards-container {
+        max-width: 90vw;
+    }
+}
+.modal-dialog {
+    margin-top: 0;
+    max-width: 80vw;
+    width: fit-content;
+}
+@media screen and (max-width: 666px) {
+    .news-cards-container .card {
+        margin: 8%;
+    }
+    .modal-body {
+        padding: 0;
+    }
+    .modal-dialog { 
+        max-width: 95vw !important;
+    }.modal-dialog {
+         margin: 0;
+     }
+}
+.fade.modal-backdrop.show {
+    z-index: 999999999;
+}
+.fade.modal.show {
+    z-index: 9999999999;
+}
+.fade.modal > .modal-dialog {
+    margin: 18vh auto;
+}
+.modal-body > img {
+    width: 100%;
+}
+.modal-footer {
+    text-align: left;
+    justify-content: flex-start;
+}

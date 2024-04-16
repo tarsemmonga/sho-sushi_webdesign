@@ -1,0 +1,132 @@
+.menu-container {
+    background: url("../../assets/menu/menu-bg.png") black;
+    background-size: cover;
+    background-position: center center;
+}
+.menu-parent{
+    background: black;
+}
+
+.menu-items-container > img {
+    max-width: 80vw;
+    width: 700px;
+    position: absolute;
+    top: 0;
+    z-index: 999;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.slick-list {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    padding-bottom: 5%;
+}
+.slick-prev:before {
+    content: "<";
+    color: white;
+    font-size: 30px;
+}
+
+.slick-next:before {
+    content: ">";
+    color: white;
+    font-size: 30px;
+}
+.menu-items-container {
+    padding: 5% 0;
+    /* margin: 10% 0; */
+}
+.menu-items-container{
+    background: #AE9774;
+    position: relative;
+}
+.menu-content {
+    margin: 10% 0;
+}
+
+.menu-container {
+    padding-top: 10%;
+    padding-bottom: 5%;
+
+}
+
+.menu-container h1 {
+    font-family: 'Noto Serif';
+    color: white;
+    font-size: 4em;
+}
+.menu-description-header h2 {
+    color: white;
+    opacity: 0.6;
+}
+.menu-description-header p {
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+    color: white;
+    font-family: 'Montserrat';
+    max-width: 600px;
+    margin: 3% auto 13%;
+}
+.slick-slider.slick-initialized {
+    margin: 3%;
+}
+ul.slick-dots {
+    bottom: -200%;
+}
+
+@media screen and (max-width: 1300px){
+    .drinks-menu .menu-items-container {
+        padding-top: 15%;
+    }
+    .slick-slider.slick-initialized {
+        margin: 10%;
+    }
+}
+@media screen and (max-width: 768px){
+    .menu-description-header p {
+        font-size: 0.8rem;
+        line-height: 1.5rem;
+        margin: 11% auto 27%;
+        max-width: 80vw;
+
+    }
+    .slick-slider.slick-initialized {
+        margin: 20% 3%;
+    }
+}
+.slick-slide .single-menu-item-image-container > img {
+    display: block;
+    margin: auto;
+}
+@media screen and (max-width: 582px){
+    .menu-container h1 {
+        font-size: 11vw;
+    }
+
+    .menu-description-header h2 {
+        font-size: 6vw;
+    }
+}
+
+.menu-items-container {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.slick-slide .single-menu-item-image-container > img {
+    width: 100%;
+}
+.slick-slide .single-menu-item-image-container > img {
+    max-width: 220px;
+}
+.drinks-menu .menu-content {
+    margin-top: 20%;
+}
+.drinks-menu .menu-items-container {
+    padding-top: 7%;
+}
+
+@media screen and (max-width: 420px){
+    .menu-description-header {
+        margin: 10% 0 50%;
+    }
+}

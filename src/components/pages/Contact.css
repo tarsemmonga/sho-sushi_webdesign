@@ -1,0 +1,49 @@
+.contact-page-banner-container{
+    background: url("../../assets/contact/tokyo-style-bg.png") black;
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
+    padding: 10% 0;
+    height: 95vh;
+}
+.contact-page-banner-container > img{
+    max-width: 60vw;
+}
+
+.contact-page-banner-container-2 p {
+    max-width: 600px;
+    margin: 2% auto;
+
+    color: white;
+    font-family: "Montserrat";
+    font-size: 0.9rem;
+    line-height: 2em;
+}
+.contact-page-banner-container-2{
+
+    background: url("../../assets/contact/contact-banner-2-bg-tokyo-street.png") #271001;
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
+    padding: 10% 0;
+}
+
+.contact-page-banner-container {
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width: 992px) {
+    .contact-page-banner-container{
+        padding: 15% 0;
+    }
+    .contact-page-banner-container-2 p {
+        max-width: 70vw;
+        margin-top: 10%;
+    }
+    .contact-page-banner-container{
+        height: 90vh;
+    }
+    .contact-page-banner-container-2 p {
+        font-size: 0.6rem;
+    }
+}

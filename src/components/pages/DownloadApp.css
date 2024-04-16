@@ -1,0 +1,185 @@
+
+
+.be-our-vip-container{
+    background:url("../../assets/download-app/be-our-vip-bg.png");
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
+    padding: 5% 0 10% 0;
+}
+.be-our-vip-text-svg{
+    max-width: 700px;
+}
+.referral-gift-heading{
+    font-family: 'Noto Serif';
+    font-size: 4rem;
+    color:#FFDEAC;
+    margin: 0 0 4% ;
+}
+
+.download-links-container h2 {
+    color: #FFDEAC;
+    font-family: 'Noto Serif';
+    font-size: 3.4rem;
+    margin: auto;
+    max-width: 500px;
+}
+
+.be-our-vip-container p {
+    max-width: 600px;
+    margin: 2% auto;
+
+    color: white;
+    font-family: "Montserrat";
+    font-size: 0.9rem;
+    line-height: 2em;
+}
+button.sign-up-button.btn.btn-primary {
+    background: #CB0000;
+    border: none;
+    border-radius: 0;
+    width: 30%;
+}
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #CB0000;
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+
+
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0);
+}
+
+.be-our-vip-form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 40vw;
+    margin: auto auto 3%;
+}
+input.form-control {
+    width: 47%;
+    margin: auto;
+}
+.app-dowload-banner-container{
+    background:url("../../assets/download-app/download-app-banner.png");
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
+    padding: 7% 0 0 0;
+
+}
+.iPhone-mockup-container, .iPhone-mockup-container img{
+    height: 100%;
+}
+
+.app-dowload-banner-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: space-evenly;
+}
+.iPhone-mockup-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.app-benefit span {
+    color: white;
+    font-family: "Montserrat";
+    font-weight: 600;
+}
+.app-benefit {
+    margin: 5% 0;
+}
+.app-benefits-container button.down-load-app-button.btn.btn-primary:hover {
+    background: white;
+    color: black;
+    font-weight: 600;
+}
+.app-benefits-container button.down-load-app-button.btn.btn-primary {
+    width: 100%;
+    margin: 6% 0;
+    height: 50px;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 0;
+    transition: 0.2s all ease-in;
+}
+.mobile-app-store-buttons-container {
+    /* width: 50%; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.mobile-app-store-buttons-container img {
+    width: 230px !important;
+}
+.iPhone-mockup-container img {
+    width: 26vw;
+    height: auto;
+}
+.app-benefit span img {
+    width: 8%;
+}
+.app-benefit, .app-benefits-container {
+    width: fit-content;
+    /* margin: auto; */
+}
+.app-benefits-container{
+  margin: auto;
+}
+.download-links-container {
+    margin-top: 5%;
+ }
+@media screen and (max-width: 992px) {
+    input.form-control {
+        width: 100%;
+        margin: 8px;
+        font-size: 0.8rem;
+    }
+    button.down-load-app-button.btn.btn-primary {
+        max-width: 75vw;
+    }
+    .iPhone-mockup-container img {
+        max-width: 75vw;
+        height: auto;
+    }
+
+
+    .be-our-vip-form {
+        width: 70vw;
+    }
+    .be-our-vip-text-svg {
+        max-width: 70vw;
+    }
+
+    .be-our-vip-container p {
+        font-size: 0.7rem;
+        max-width: 70vw;
+    }
+}
+@media screen and (max-width: 768px){
+    .referral-gift-heading {
+        font-size: 10vw;
+    }
+    .download-links-container {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .download-links-container h2 {
+        font-size: 8vw;
+        max-width: 80vw;}
+    .app-benefit span {
+        font-size: 3vw;
+        max-width: 50vw;
+    }
+    .iPhone-mockup-container img {
+        width: 80vw;
+    }
+}

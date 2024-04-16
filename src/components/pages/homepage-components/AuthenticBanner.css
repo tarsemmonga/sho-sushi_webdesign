@@ -1,0 +1,55 @@
+.Authentic-Banner-Container{
+
+    padding: 10% 0;
+    background: url("../../../assets/authentic-banner/authentic-img-bg.png");
+    background-size: cover;
+    background-position: right center;
+}
+.Authentic-Banner-Container p.descriptive-Text {
+    color: white;
+}
+
+.Authentic-Banner-Container h2 {
+    color: #FFDEAC;
+    font-family: 'Noto Serif';
+    font-weight: 600;
+    font-size: 3.4rem;
+    margin: auto;
+    max-width: 700px;
+    margin-top: -2%;
+
+    text-align: left;
+}
+.Authentic-Banner-Description-Container {
+    margin-left: 10%;
+}
+.Authentic-Banner-Description-Container{
+    width: 26vw;
+    min-width: 400px;
+    margin-left: 10%;
+
+}
+
+.Main-Attraction-Banner-Description-Container img {
+    max-width: 80vw;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .Authentic-Banner-Container{
+        background-position: left center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Authentic-Banner-Description-Container{
+        min-width: 0;
+        width: 80vw;
+        margin: auto;
+    }
+
+    .Authentic-Banner-Container h2 {
+        font-size: 13vw;
+    }
+}

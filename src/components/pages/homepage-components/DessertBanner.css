@@ -1,0 +1,162 @@
+.dessert-banner-content-container{
+    margin-top: 10%;
+}
+
+.dessert-banner-content-container h2 {
+    color: #FFDEAC;
+    font-family: 'Montserrat';
+    font-size: 2.3rem;
+    margin: auto;
+    max-width: 700px;
+    margin-top: -2%;
+    white-space: nowrap;
+}
+
+
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0);
+}
+
+.banner-info-container{
+    width: 50vw;
+    height: auto;
+    padding: 3%;
+    background: url("../../../assets/dessert-banner/rockbg.png");
+}
+.dessert-banner-content-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.beerGlass-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.app-benefit span {
+    color: white;
+    font-family: "Montserrat";
+    font-weight: 600;
+}
+.app-benefit {
+    margin: 5% 0;
+}
+button.contact-us-button.btn.btn-primary:hover {
+    background: white;
+    color: black;
+    font-weight: 600;
+}
+button.contact-us-button.btn.btn-primary {
+    width: 50%;
+    margin: 6% 0;
+    height: 50px;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 0;
+    transition: 0.2s all ease-in;
+}
+.banner-info-container {
+    display: flex;
+}
+.cakeBg-container img{
+    width:48vw;
+    height: 100% !important;
+    object-fit: cover;
+}
+
+.app-benefit, .app-benefits-container {
+    width: fit-content;
+    /* margin: auto; */
+}
+.app-benefits-container{
+    margin: auto;
+}
+.banner-text-container {
+    margin: auto!important;
+}
+.banner-info-container, .cakeBg-container img {
+    min-width: 500px;
+}
+
+@media screen and (max-width: 992px) {
+    input.form-control {
+        width: 100%;
+        margin: 8px;
+        font-size: 0.8rem;
+    }
+    button.contact-us-button.btn.btn-primary {
+        max-width: 75vw;
+    }
+
+
+}
+
+@media screen and (max-width: 600px){
+    .dessert-banner-content-container h2 {
+        font-size: 8vw;
+        max-width: 80vw;}
+    .app-benefit span {
+        font-size: 3vw;
+        max-width: 50vw;
+    }
+}
+
+.dessert-banner-content-container h3 {
+    color: #B1B1B1;
+    font-size: 2rem;
+    text-align: center;
+    margin: 3% auto;
+    font-weight: 400;
+}
+
+
+.dessert-banner-content-container .descriptive-Text{
+    max-width: 350px;
+    color:white;
+    margin: auto;
+    font-weight: 400;
+    text-align: justify;
+    font-size: 0.8rem;
+    line-height: 2em;
+    font-family: "Montserrat";
+}
+
+@media screen and (max-width: 678px){
+
+    .dessert-banner-content-container{
+        margin-top: 50% !important;
+    }
+    .banner-text-container h2 {
+        font-size:7vw;
+    }
+
+    .banner-text-container h3 {
+        font-size: 6vw;
+    }
+    .banner-text-container .descriptive-Text{
+        margin: auto;
+        max-width: 70vw;
+        margin-bottom: 10%;
+    }
+    .banner-info-container, .cakeBg-container img {
+        min-width: 100vw;
+    }
+}
+
+
+@media screen and (max-width: 500px){
+
+    .dessert-banner-text-container h3 {
+        font-size: 1.3rem;
+    }
+}
+.beerGlass-container {
+    margin-top: auto;
+}
+p.descriptive-Text {
+     border-top: 1px solid #FFDEAC;
+     margin-top: 5% !important;
+     padding: 5% 0!important;
+ }

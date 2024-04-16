@@ -1,0 +1,124 @@
+.download-links-container h2 {
+    color: #FFDEAC;
+    font-family: 'Noto Serif';
+    font-size: 3.4rem;
+    margin: auto;
+    max-width: 500px;
+    margin-top: 10%;
+}
+
+
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0);
+}
+
+.app-dowload-banner-container{
+    background:url("../../../assets/download-app/download-app-banner.png");
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
+    padding: 7% 0 0 0;
+
+}
+.iPhone-mockup-container, .iPhone-mockup-container img{
+    height: 100%;
+}
+
+.app-dowload-banner-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: space-evenly;
+}
+.iPhone-mockup-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.app-benefit span {
+    color: white;
+    font-family: "Montserrat";
+    font-weight: 600;
+}
+.app-benefit {
+    margin: 5% 0;
+}
+button.down-load-app-button.btn.btn-primary:hover {
+    background: white;
+    color: black;
+    font-weight: 600;
+}
+ button.down-load-app-button.btn.btn-primary {
+    width: 100%;
+    margin: 6% 0;
+    height: 50px;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 0;
+    transition: 0.2s all ease-in;
+}
+.iPhone-mockup-container img {
+    width: 26vw;
+    height: auto;
+}
+.app-benefit span img {
+    width: 8%;
+}
+.app-benefit, .app-benefits-container {
+    width: fit-content;
+    /* margin: auto; */
+}
+.app-benefits-container{
+    margin: auto;
+}
+.download-links-container {
+    margin-top: 5%;
+}
+@media screen and (max-width: 992px) {
+    input.form-control {
+        width: 100%;
+        margin: 8px;
+        font-size: 0.8rem;
+    }
+    button.down-load-app-button.btn.btn-primary {
+        max-width: 75vw;
+    }
+    .iPhone-mockup-container img {
+        max-width: 75vw;
+        height: auto;
+    }
+
+
+}
+
+@media screen and (max-width: 600px){
+    .download-links-container h2 {
+        font-size: 8vw;
+        max-width: 80vw;}
+    .app-benefit span {
+        font-size: 3vw;
+        max-width: 50vw;
+    }
+    .iPhone-mockup-container img {
+        width: 80vw;
+    }
+}
+
+.app-dowload-banner-container h3 {
+    color: #B1B1B1;
+    font-size: 2rem;
+    text-align: left;
+    margin-left: 10%;
+    margin: 5% 0 10% 10%;
+    font-weight: 400;
+}
+.downloads-page-content-container-homepage {
+    margin-top: 10%;
+}
+@media screen and (max-width: 670px){
+
+    .download-links-container {
+        margin-top: 30% !important;
+    }
+}

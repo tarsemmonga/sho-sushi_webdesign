@@ -1,0 +1,105 @@
+.main-footer{
+    height: 70vh;
+    background: black;
+}
+.socials-footer {
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.reservations-footer{
+    height: 120vh;
+}
+.reservations-footer >h2{
+    font-size: 4em;
+    margin-top: 5%;
+}
+.footer-address{
+    color:white;
+    text-align: center;
+    margin-top: 0;
+    font-family: 'Montserrat';
+    line-height: 2em;
+    font-size: 1em;
+}
+.footer-button-promo-text-container{
+    width: 400px;
+}
+.make-reservation-button{
+    margin:10% 0;
+    background: #271001;
+    border: 1px solid white;
+    color: white;
+    border-radius: 0;
+    width: 100%;
+    padding: 3% 7%;
+}
+.make-reservation-button:hover{
+    color:#271001;
+    background: white;
+    border: 1px solid white;
+
+}
+p.footer-promo-text {
+    color: white;
+    font-family: "Times New Roman";
+    max-width: 400px;
+    text-align: center;
+    margin: 3% auto 0;
+}
+.footer-logo{
+    height:15vh;
+    text-align: center;
+    margin:auto;
+}
+.footer-contents-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 80%;
+    padding: 2% 0 0;
+    margin: 2% 0 0 0;
+    background: black;
+}
+
+.reservations-footer .footer-contents-container{
+    border-top: 5px solid;
+}
+
+.fab{
+    color:white;
+    font-size: 2em;
+    margin:10px;
+}
+@media screen and (max-width: 700px) {
+
+    .footer-address{
+        font-size: 0.7em;
+    }
+
+    p.footer-promo-text {
+        max-width: 250px;
+        font-size: 0.7rem;
+    }
+
+    .footer-button-promo-text-container{
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .make-reservation-button span {
+        display: block !important;
+    }
+    .reservations-footer >h2{
+        font-size: 2em;
+    }
+}
+
+.make-reservation-span{
+    font-family: "Montserrat";
+
+}

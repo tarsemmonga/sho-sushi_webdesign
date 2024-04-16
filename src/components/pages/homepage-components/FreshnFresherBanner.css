@@ -1,0 +1,85 @@
+.Fresh-n-Fresher-Banner-Image-Container img {
+    width: 33vw;
+    min-width: 400px;
+}
+.Fresh-n-Fresher-Banner-Description-Container{
+    width: 26vw;
+    min-width: 400px;
+}
+.Fresh-n-Fresher-Banner-Container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: space-evenly;
+}
+
+.Fresh-n-Fresher-Banner-Container {
+    padding: 5% 0 0;
+    background: url("../../../assets/fresh-banner/fresh-banner-bg.png");
+    background-size: cover;
+    background-position: center center;
+
+}
+.Fresh-n-Fresher-Banner-Container p.descriptive-Text {
+    color: white;
+}
+.Fresh-n-Fresher-Banner-Container h2 {
+    color: #FFDEAC;
+    font-family: 'Noto Serif';
+    font-size: 3.4rem;
+    margin: auto;
+    max-width: 700px;
+    margin-top: -2%;
+}
+
+.Fresh-n-Fresher-Banner-Container h3 {
+    color: #B1B1B1;
+    font-size: 2rem;
+    text-align: right;
+    margin: 3% auto;
+    font-weight: 400;
+    margin-right: -2%;
+}
+.Fresh-n-Fresher-Banner-Container {
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+@media screen and (max-width: 768px) {
+    .Fresh-n-Fresher-Banner-Container h2 {
+        font-size: 9vw;
+        margin: 20% 0 10%;
+    }
+
+    .Fresh-n-Fresher-Banner-Container h3 {
+        margin-right: 0;
+        font-size: 6vw;
+        text-align: center;
+    }
+    .Fresh-n-Fresher-Banner-Image-Container img {
+        min-width: 0;
+        width: 80vw;
+
+        margin-top: 20%;
+    }
+    .Fresh-n-Fresher-Banner-Description-Container{
+        min-width: 0;
+        width: 80vw;
+    }
+}
+
+@media screen and (min-width: 992px) {
+.Fresh-n-Fresher-Banner-Image-Container img {
+    position: relative;
+    top: 24%;
+}
+
+}
+
+@media screen and (max-width: 1000px) {
+
+
+    .Fresh-n-Fresher-Banner-Container h3 {
+        text-align: center;
+    }
+}
